@@ -1,0 +1,61 @@
+body, html{
+  height: 100%;
+  background-color: #ddd;
+}
+
+h1, h2, h3, h4, h5, h6, p, body{
+  font-size: 14px;
+  color: #4a4a4a;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+header {
+  height :48px;
+  background-color: white;
+}
+
+h1 {
+  line-height: 48px;
+  text-align: center;
+}
+
+
+.contents{
+  width:600px;
+  height:900px;
+  margin: 5px auto 0;
+  background-color: white;
+}
+
+.message_box{
+  border-bottom:solid #bbb 1px;
+  min-height:100px;
+}
+
+img {
+  margin:10px 10px 0 10px;
+  float: left;
+  height: 50px;
+  border: solid #bbb 1px;
+  border-radius: 10px;
+}
+
+.message {
+  margin-top:10px;
+  float:left;
+  width:500px ;
+}
+
+.text{
+  padding:0 0 10px 0;
+}
+
+
